@@ -8,9 +8,9 @@
 
 n=int(input("Введите номер билета (6 цифр): "))
 a=int(n/100000)+int(n/10000%10)+int(n/1000%10)
-print(int(a))
+print(a)
 b=int(n/100%10)+int(n/10%10)+int(n%10)
-print(int(b))
+print(b)
 if a==b:
     print("yes")
 elif a!=b:
